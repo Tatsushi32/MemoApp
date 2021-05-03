@@ -1877,6 +1877,11 @@
   dependencies:
     "invariant" "^2.2.4"
 
+"@use-expo/font@^2.0.0":
+  "integrity" "sha512-oOJ2uaRyZNQg7PnQviz7nBcdrRL38zxScab4ktgtI4asa6G0dHW9wg307uJJmn0sHS04Yqtw+m0EOjDcGw3iWg=="
+  "resolved" "https://registry.npmjs.org/@use-expo/font/-/font-2.0.0.tgz"
+  "version" "2.0.0"
+
 "abort-controller@^3.0.0":
   "integrity" "sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg=="
   "resolved" "https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz"
@@ -3468,7 +3473,7 @@
     "@expo/config-plugins" "^1.0.18"
     "uuid" "^3.4.0"
 
-"expo-font@~9.1.0":
+"expo-font@>=8.1.0", "expo-font@~9.1.0":
   "integrity" "sha512-owzbbfrQet7mawTGKMXpVCIA9k56MGhtriO41AW4Zo65dd2Ikm4LoymuHKp2ZlHuIFjRnjECKWz7RXgy/C1yAg=="
   "resolved" "https://registry.npmjs.org/expo-font/-/expo-font-9.1.0.tgz"
   "version" "9.1.0"
