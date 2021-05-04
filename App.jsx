@@ -1,4 +1,5 @@
 import React from 'react';
+import { LogBox } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator, CardStyleInterpolators } from '@react-navigation/stack';
 import firebase from 'firebase';
@@ -58,3 +59,4 @@ export default function App() {
     </NavigationContainer>
   );
 }
+LogBox.ignoreLogs(['Setting a timer']);
